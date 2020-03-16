@@ -40,15 +40,15 @@
 
 	<div class="row">
 		<div class="col-md-8">
-			<h2>Welcome To Mithun Technologies, Marathahalli, Banglore.</h2>
-			<h3>Contact @ +91-8296242028 ,+91-9980923226</h3>
+			<h2>Welcome To vArc Technologies, Gachibowli, Hyderabad.</h2>
+			<h3>Contact @ +91-8121350021 ,+91-8121350022</h3>
 		</div>	
 	</div>
 
 
 	<hr>
 	<footer>
-		<p>&copy; Mithun Technologies 2019</p>
+		<p>&copy; vArc Technologies 2019</p>
 	</footer>
 </div>
 
