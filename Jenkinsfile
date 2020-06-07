@@ -17,7 +17,7 @@ pipeline{
 
 		stage('Stage2'){
 			when {
-			{
+			
 					branch 'master2'
 			
 		}
