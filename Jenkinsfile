@@ -24,7 +24,18 @@ pipeline{
                         steps{
                                 echo 'this is not master branch'
                         }
-                }
+                
+		}
+
+		stages {
+        stage('Build') {
+            steps {
+                def mavenHome= tool name: "maven", type: "maven"
+        
+        sh "${mavenHome}/bin/mvn clean package"
+            }
+        }
+    }
 
 		
 
