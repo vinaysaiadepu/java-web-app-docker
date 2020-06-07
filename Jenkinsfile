@@ -4,7 +4,7 @@ pipeline{
 		stage('SCM Checkout'){
 			steps{
 				git branch: 'master',
-                		url: 'git@github.com:vinaysaiadepu/java-web-app-docker.git'
+                		url: 'https://github.com/vinaysaiadepu/java-web-app-docker.git'
 			}
 		}
 		
