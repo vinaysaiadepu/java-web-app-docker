@@ -32,7 +32,7 @@ pipeline{
             steps {
                 //def mavenHome= tool name: "Maven", type: "maven"
         
-        sh "${mavenHome}/bin/mvn clean package"
+        sh "mvn clean package"
             }
         }
 }
