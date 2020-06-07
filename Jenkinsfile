@@ -15,6 +15,16 @@ pipeline{
                         }
                 }
 
+		stage('Stage2')
+			when {
+				not {
+					branch 'master'
+			}
+                        steps{
+                                echo 'this is not master branch'
+                        }
+                }
+
 		
 
 	}
