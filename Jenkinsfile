@@ -17,9 +17,9 @@ pipeline{
 
 		stage('Stage2'){
 			when {
-				not {
+			{
 					branch 'master2'
-			}
+			
 		}
                         steps{
                                 echo 'this is not master branch'
