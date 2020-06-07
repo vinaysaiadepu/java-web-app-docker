@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('SCM Checkout'){
 			steps{
-				git branch: 'master',
+				git branch: 'devops/test',
                 		url: 'https://github.com/vinaysaiadepu/java-web-app-docker.git'
 			}
 		}
@@ -18,7 +18,7 @@ pipeline{
 		stage('Stage2')
 			when {
 				not {
-					branch 'devops/test'
+					branch 'master'
 			}
                         steps{
                                 echo 'this is not master branch'
